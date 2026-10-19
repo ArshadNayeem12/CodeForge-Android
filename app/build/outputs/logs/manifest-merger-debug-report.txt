@@ -1,0 +1,60 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		INJECTED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:3:22-64
+application
+ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:5:5-25:19
+	android:extractNativeLibs
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:9:9-41
+	android:supportsRtl
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:7:9-34
+	android:allowBackup
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:6:9-36
+	android:theme
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:10:9-66
+	android:usesCleartextTraffic
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:8:9-44
+activity#com.codeforge.android.MainActivity
+ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:13:9-24:20
+	android:screenOrientation
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:15:13-50
+	android:exported
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:17:13-36
+	android:configChanges
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:16:13-74
+	android:name
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:14:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml
+INJECTED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /root/CodeForge-Android/app/src/main/AndroidManifest.xml

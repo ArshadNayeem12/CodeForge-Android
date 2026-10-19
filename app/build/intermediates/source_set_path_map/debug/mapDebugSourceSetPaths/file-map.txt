@@ -1,0 +1,7 @@
+com.codeforge.android.app-pngs-0 /root/CodeForge-Android/app/build/generated/res/pngs/debug
+com.codeforge.android.app-resValues-1 /root/CodeForge-Android/app/build/generated/res/resValues/debug
+com.codeforge.android.app-packageDebugResources-2 /root/CodeForge-Android/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.codeforge.android.app-packageDebugResources-3 /root/CodeForge-Android/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.codeforge.android.app-debug-4 /root/CodeForge-Android/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.codeforge.android.app-debug-5 /root/CodeForge-Android/app/src/debug/res
+com.codeforge.android.app-main-6 /root/CodeForge-Android/app/src/main/res
