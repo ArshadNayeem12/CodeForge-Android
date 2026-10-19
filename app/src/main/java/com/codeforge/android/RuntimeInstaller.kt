@@ -77,7 +77,7 @@ object RuntimeInstaller {
         val connection = (URL(RUNTIME_URL).openConnection() as HttpURLConnection).apply {
             instanceFollowRedirects = true
             connectTimeout = 30_000
-            readTimeout = 60_000
+            readTimeout = 300_000
             requestMethod = "GET"
             setRequestProperty("User-Agent", "CodeForge-Android")
         }
