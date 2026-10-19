@@ -182,20 +182,29 @@ class MainActivity : Activity(), InputManager.InputDeviceListener {
     }
 
     private fun checkPhysicalDevices() {
-        val devices: List<InputDevice> = InputDevice.getDeviceIds()
-            .mapNotNull { deviceId -> InputDevice.getDevice(deviceId) }
-            .filter { device -> !device.isVirtual }
+    val devices = mutableListOf<android.view.InputDevice>()
 
-        physicalKeyboardConnected = devices.any { device ->
-            (device.sources and InputDevice.SOURCE_KEYBOARD) == InputDevice.SOURCE_KEYBOARD
+    for (deviceId: Int in android.view.InputDevice.getDeviceIds()) {
+        val device: android.view.InputDevice? =
+            android.view.InputDevice.getDevice(deviceId)
+
+        if (device != null && !device.isVirtual) {
+            devices.add(device)
         }
-
-        physicalMouseConnected = devices.any { device ->
-            (device.sources and InputDevice.SOURCE_MOUSE) == InputDevice.SOURCE_MOUSE
-        }
-
-        updateGate()
     }
+
+    physicalKeyboardConnected = devices.any { device ->
+        (device.sources and android.view.InputDevice.SOURCE_KEYBOARD) ==
+            android.view.InputDevice.SOURCE_KEYBOARD
+    }
+
+    physicalMouseConnected = devices.any { device ->
+        (device.sources and android.view.InputDevice.SOURCE_MOUSE) ==
+            android.view.InputDevice.SOURCE_MOUSE
+    }
+
+    updateGate()
+}
 
     private fun updateGate() {
         if (!::connectionPanel.isInitialized) return
